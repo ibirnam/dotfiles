@@ -36,7 +36,7 @@ Plugin 'Raimondi/delimitMate'
 
 " sublime text like control p
 Plugin 'kien/ctrlp.vim'
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|venv’'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|venv'
 
 " git diff marks in gutter
 Plugin 'airblade/vim-gitgutter'
@@ -114,8 +114,8 @@ Plugin 'cespare/vim-toml'
 " Syntax checking hacks for vim
 Plugin 'scrooloose/syntastic'
 let g:syntastic_javascript_checkers = ['jshint']
-let g:syntastic_error_symbol = '✗'
-let g:syntastic_warning_symbol='⚠'
+let g:syntastic_error_symbol = 'x'
+let g:syntastic_warning_symbol='!'
 "let g:syntastic_auto_jump=1
 " nnoremap <leader>js :w<CR>:make<CR>:cw<CR>
 " This does what it says on the tin. It will check your file on open too, not
