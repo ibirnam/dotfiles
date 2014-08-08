@@ -26,6 +26,10 @@ windowsPath="/c/Windows/System32:/c/Program Files/Perforce"
 
 export PATH=$HOME/bin:$generalPath:$GOPATH:$GOBIN:$windowsPath
 
+export GOPATH=/go
+export GOROOT=/usr/local/go
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/go/bin:/usr/local/go/bin
+
 [ -e "${HOME}/.zsh_aliases" ] && source "${HOME}/.zsh_aliases"
 [ -e "${HOME}/.zshrc_local" ] && source "${HOME}/.zshrc_local"
 
