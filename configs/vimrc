@@ -139,10 +139,10 @@ Plugin 'Lokaltog/vim-easymotion'
 
 " code autocompletion
 " NOTE: Requires extra compilation setup
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 
 "Go development plugin for Vim
-Plugin 'fatih/vim-go'
+" Plugin 'fatih/vim-go'
 
 call vundle#end()
 filetype on
