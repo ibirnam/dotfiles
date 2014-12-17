@@ -6,6 +6,25 @@
 
 * Make sure to have the Xcode command line tools installed before running on OSX
 
+### Cygwin Packages
+* curl
+* wget
+* zsh
+* python27
+* git
+* git-core
+* gitk
+* git-completion
+* vim
+* vim-common
+* openssh
+* cmake
+* gcc-core
+* gcc-g++
+* ncurses
+* lib-ncurses-devel
+* make (gnu)
+
 ### Install with curl 
 
 `curl -L https://raw.github.com/ibirnam/dotfiles/master/tools/install.sh | sh`
