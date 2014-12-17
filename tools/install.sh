@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export github_username="icecreammatt"
+export github_username="ibirnam"
 
 cd $HOME
 git clone https://github.com/$github_username/dotfiles
