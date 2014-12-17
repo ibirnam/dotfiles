@@ -8,7 +8,7 @@
 
 ### Install with curl 
 
-`curl -L https://raw.github.com/icecreammatt/dotfiles/master/tools/install.sh | sh`
+`curl -L https://raw.github.com/ibirnam/dotfiles/master/tools/install.sh | sh`
 
 ### Post Install
 
@@ -25,6 +25,6 @@
 1. Review aliases in `.zsh_aliases`
 
 ## Preview
-> Run [`devmux`](https://github.com/icecreammatt/scripts/blob/master/devmux.sh) to get this layout.
+> Run [`devmux`](https://github.com/ibirnam/scripts/blob/master/devmux.sh) to get this layout.
 
 ![Preview](resources/preview.png)
