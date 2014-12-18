@@ -24,3 +24,4 @@
 	default = simple
 [pull]
     default = simple
+	rebase = true
