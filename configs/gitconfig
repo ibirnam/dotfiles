@@ -6,7 +6,7 @@
 [merge]
 	tool = p4merge
 [core]
-    autocrlf = input
+	autocrlf = true
 [merge]
 	tool = p4merge
 	keepBackup = false
